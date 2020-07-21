@@ -1,0 +1,18 @@
+{
+  "name": "taro-keyboard-car",
+  "version": "1.1.4",
+  "description": "car keyboard taro",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "taro",
+    "car-keyboard"
+  ],
+  "author": "zhangyi",
+  "license": "ISC",
+  "devDependencies": {
+    "@tarojs/taro": "1.3.0"
+  }
+}

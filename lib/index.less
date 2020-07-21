@@ -1,0 +1,76 @@
+.keybord {
+	background-color: #DDD;
+  position: fixed;
+  z-index: 10000;
+	bottom: 0;
+	display: none;
+	padding: 20px;
+	width: 100%;
+
+	&.show {
+	   display: block;
+	}
+	.keybordul {
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+    width: 100%;
+		.li {
+			display: block;
+			width: 10%;
+			height: 80px;
+      font-size: 28px;
+			justify-content: center;
+			line-height: 80px;
+			float: left;
+			.div:active {
+				opacity: 0.6;
+			}
+			.div {
+				display: inline-block;
+				width: 85%;
+				border-radius: 6px;
+        background-color: #FFF;
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+      }
+			.disableClass {
+				background-color: #e5e5e5;
+			}
+		}
+		.buttons {
+			//flex-grow: 10;
+			//width: 40%;
+			height: 100px;
+			position: absolute;
+			bottom: 0;
+
+			text-align: center;
+			right: 20px;
+			.buttonsdiv {
+				min-width: 260px;
+				text-align: center;
+				float: right;
+				margin-top: 10px;
+				display: flex;
+			}
+			.firstbutton {
+				width: 100px;
+				// background-color: #adb3bc;
+				position: relative;
+			}
+			.secondbutton {
+				width: 132px;
+				height: 60px;
+				margin-left: 16px;
+				position: relative;
+			}
+		}
+	}
+	.icon-delete-character{
+		font-size: 32px;
+
+	}
+
+}
