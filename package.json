@@ -1,6 +1,6 @@
 {
   "name": "taro-keyboard-car",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "description": "car keyboard taro",
   "main": "index",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "taro",
-    "car-keyboard"
+    "car keyboard"
   ],
   "author": "zhangyi",
   "license": "ISC",

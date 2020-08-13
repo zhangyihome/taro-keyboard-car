@@ -23,7 +23,7 @@ import Keyboard from 'taro-keyboard-car'
 
 
 参数
-1 data必须 键盘类型，0位字母和数字，1为省份，
+1 data必须 键盘类型，0为字母和数字，1为省份，
 
 2 disablekey 非必须，灰色的不可输入按钮
 

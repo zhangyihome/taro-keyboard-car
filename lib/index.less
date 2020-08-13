@@ -4,17 +4,20 @@
   z-index: 10000;
 	bottom: 0;
 	display: none;
-	padding: 20px;
 	width: 100%;
+	justify-content: center;
 
 	&.show {
-	   display: block;
+	   display: flex;
 	}
 	.keybordul {
 		display: flex;
 		text-align: center;
 		flex-wrap: wrap;
-    width: 100%;
+		width: 100%;
+		margin: 1%;
+		position: relative;
+
 		.li {
 			display: block;
 			width: 10%;
@@ -40,23 +43,20 @@
 			}
 		}
 		.buttons {
-			//flex-grow: 10;
-			//width: 40%;
-			height: 100px;
 			position: absolute;
 			bottom: 0;
 
 			text-align: center;
-			right: 20px;
+			right: 1%;
 			.buttonsdiv {
-				min-width: 260px;
+				// min-width: 260px;
 				text-align: center;
 				float: right;
 				margin-top: 10px;
 				display: flex;
 			}
 			.firstbutton {
-				width: 100px;
+				width: 90%;
 				// background-color: #adb3bc;
 				position: relative;
 			}
